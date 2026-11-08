@@ -1,0 +1,93 @@
+header nav ul li{
+    display: inline-block;
+}
+header h1{
+    display: inline;
+    font-style: Arial;
+    color: rgb(36, 36, 135);
+}
+header nav ul li a{
+    text-decoration: none;
+    color: black;
+
+}
+header nav ul{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+
+.submenu{
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    background-color: aliceblue;
+    padding: 10px;
+    width: 180px;
+}
+li:hover .submenu{
+    display: block;
+}
+nav{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+body{
+    width: 1000px;
+}
+
+.logo p{
+    font-size: 10px;
+    color: rgb(54, 54, 168);
+    margin-top: -8px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+.logo{
+    font-size: 50px;
+    color: rgb(54, 54, 168);
+    margin: 0;
+}
+header nav ul li a:hover{
+    color: rgb(138, 80, 80);
+    text-decoration: underline;
+}
+h3{
+    color:rgb(56, 56, 159);
+    font-weight: 1000;
+    font-style: var(50px);
+}
+article img{
+    width: 1000px;
+}
+article p{
+    font-weight: bold;
+    font-style: arial;
+}
+ .paragraphe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background-color:rgb(56, 56, 148);
+ }
+.paragraphe ul li a {
+    text-decoration: none;
+    color: white;
+}
+.paragraphe h3{
+    color:white;
+}
+.copyright{
+    text-align: center;
+    border-top: 1px solid gray;
+    padding-top: 15px;
+}
