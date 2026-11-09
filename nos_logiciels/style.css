@@ -1,0 +1,50 @@
+nav{
+    display: inline-flex;
+}
+.tete1 ul li{
+    display: inline-flex;
+
+}
+body nav div.tete1 ul li{
+    margin-right: 2cm;
+
+}
+
+
+
+body .part2 {
+    display: inline-flex;
+    gap: 4cm;
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+    text-align: center;
+}
+
+
+
+.part4{
+    display: inline-flex;
+    background-color: rgb(26, 32, 132 ); width: 60cm;
+    color: white;
+}
+.part4 a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+.d1{
+    margin-right: 4cm;
+    text-align: left;
+}
+.d2{
+    margin-right: 4cm;
+    text-align: left;
+}
+.d3{
+    text-align: left;
+    margin-right: 4cm;
+}
+d4{
+    text-align: left;
+    margin-right: 4cm;
+}
