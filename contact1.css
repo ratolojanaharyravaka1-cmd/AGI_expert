@@ -1,0 +1,102 @@
+/* menus */
+ul{
+    /* background-color: grey; */
+    height: 200px;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    list-style-type: none;
+    display: inline;
+    overflow: hidden;
+}
+ul li{
+    display: inline-block ;
+    padding: 5px;
+    margin-left: 40px;
+    
+    
+    
+
+}
+li:hover{
+    text-decoration: underline solid;
+    
+}
+ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    
+    margin-top: 10px;
+    color: gray;
+    margin-bottom: 50px;
+        
+
+}
+ul  img{
+    width: 250px;
+    height: 150PX;
+    margin-top: 40px;
+    
+}
+
+/* formulaire */
+.formul {
+   
+    
+  
+  
+}
+.formul form{
+    float:right;
+    display: inline;
+    width: 800px;
+    height: 655px;
+    /* background-color: red; */
+    color: black;
+}
+.formul form h3{
+    font-size: larger;
+}
+input{
+    width: 600px;
+    height: 40px;
+}
+
+/* map */
+.map{
+    margin-top: 50px;
+    margin-left:30px;
+    width: 1400px;
+    height: 800px;
+}
+
+/* footer */
+footer{
+    display: block;
+    background-color: rgb(12, 12, 109);
+    color: white;
+
+    
+}
+footer .foot{
+    /* background-color: red; */
+        column-count: 4;
+    
+
+    
+}
+.foot div{
+    display: inline;
+    
+}
+.foot .tact{
+    
+}
+.foot div li{
+    display: block;
+    
+}
+h6{
+    text-align: center;
+}
