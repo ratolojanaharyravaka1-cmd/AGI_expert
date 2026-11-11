@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Montserrat, Arial, sans-serif;
+    color: rgb(42, 41, 41);
+    background: rgb(240, 240, 240);
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    margin-block: 20px;
+    size: 100px;
+    color: rgb(52, 52, 164);
+}
+.submenu{
+    display: none;
+    position: absolute;
+    top: 10px;
+    left: 0;
+    padding: 10px;
+    width: 180px; 
+    color: rgb(113, 113, 240)}
+
+.logo {
+    font-size: 50px;
+    color: rgb(52, 52, 156);
+    margin: 0;
+}
+.logo p .l{
+    font-size: 10px;
+    margin-top: -8px;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+header .l{
+    font-style: italic;
+    font-size: 8px;
+    padding: 0%;
+    color: rgb(43, 43, 143);
+     align-items: center;
+}
+header div nav{
+    float: left;
+    align-items: center;
+}
+
+.menu nav a{
+    margin-left: 25px;
+    text-decoration: none;
+    color: rgb(86, 86, 86);
+    font-size: 14px;
+}
+.menu nav a .actif{
+    border-bottom: 3px solid rgb(233, 227, 227);
+    padding-bottom: 8px;
+
+}
+header nav ul li{
+    display: inline-block;
+    flex: auto;
+}
+
+.grille{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 800px;
+    margin: 60px auto;
+}
+
+.carte {
+    background: rgb(240, 237, 237);
+    border-radius: 6px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 15 );
+    overflow: hidden;
+     
+}
+.carte img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: blocks;
+    margin: 0;
+    padding: 0;
+    font-size: large;
+
+}
+.contenu{padding : 30px 20px;}
+.contenu h2{
+    font-size: 19px; 
+    margin-bottom: 20px;
+
+}
+.contenu p{
+    font-size: 13px;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+.bouton {
+    display: inline-block;
+    background: rgb(37, 37, 154);
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.pied{
+    background: #1f3482;
+    color: white;
+    padding: 50px 40px 20px;
+
+}
+.colonnnes{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    text-align: center;
+}
+.colonnnes h3{ 
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+.colonnnes p{
+    font-size: 13px;
+    margin: 8px;
+}
+.copyright {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 40px;
+    opacity: auto;
+}
+@media(max-width: 700px){
+    .grille, .colonnnes{grid-template-columns: 1fr;}
+    .menu{
+    flex-direction: column;
+    gap: 15px;
+}
+}
+footer div .copyright{
+    float: left;
+    align-items: center;
+}
+footer section {
+    display: inline-block;
+    margin-block: 50px;
+    text-align: center;
+    gap: 100px;
+    
+}
