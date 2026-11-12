@@ -1,0 +1,137 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    display: inline-flex;
+}
+body nav div.tete1 ul li a u {
+    color: rgb(165, 91, 42);
+}
+.tete1 ul li{
+    display: inline-flex;
+
+}
+body nav div.tete1 ul li{
+    padding-right: 1.4cm;
+    
+}
+body nav div.tete1 ul li a:hover{
+    color: rgba(250, 159, 22, 0.87);
+}
+
+body nav .tete1 ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: auto;
+    
+}
+
+
+
+body .part2 {
+    display: inline-flex;
+    gap: 4cm;
+    margin-top: 2cm;
+    margin-bottom: 2cm;
+    text-align: center;
+}
+
+
+
+.part4{
+    display: inline-flex;
+    background-color: rgb(67, 73, 179); width: 60cm;
+    color: white;
+}
+.part4 a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+.d1{
+    margin-right: 4cm;
+    text-align: left;
+}
+.d2{
+    margin-right: 4cm;
+    text-align: left;
+}
+.d3{
+    text-align: left;
+    margin-right: 4cm;
+}
+d4{
+    text-align: left;
+    margin-right: 4cm;
+}
+body .part2 .a{
+   border: 0.1px solid rgb(212, 206, 201);
+    padding: 20px;
+    margin-top: 1cm;
+
+}
+body .part2 .b{
+    border: 0.1px solid rgb(212, 206, 201);
+    padding: 20px;
+    margin-top: 1cm;
+}
+body .part2 .c{
+    border: 0.1px solid rgb(212, 206, 201);
+    padding: 20px;
+    margin-top: 1cm;
+}
+body .part2 .d{
+    border: 0.1px solid rgb(212, 206, 201);
+    padding: 20px;
+    margin-top: 1cm;
+}
+body .part2 .a .aa{
+    background-color: rgb(20, 19, 19);
+    padding: 0.5cm;
+}
+
+body .part2 .a .aa a{
+    text-decoration: none;
+    color: white;
+}
+
+body .part2 .b .bb{
+    background-color: rgb(20, 19, 19);
+    padding: 0.5cm;
+
+}
+body .part2 .b .bb a{
+     text-decoration: none;
+    color: white;
+
+}
+body .part2 .c .cc{
+    background-color: rgb(20, 19, 19);
+    padding: 0.5cm;
+
+}
+body .part2 .c .cc a{
+     text-decoration: none;
+    color: white;
+}
+.part3{
+    text-align: left;
+    margin-left: 10cm;
+    margin-bottom: 2cm;
+    font-size: large;
+    color: rgb(44, 41, 41);
+}
+body .part3 ul li a{
+    text-decoration: none;
+    color: black;
+}
+body .part3 ul li{
+    list-style: none;
+}
+body .part4 .d2 ul li{
+    list-style: none;
+}
+body .part4 .d3 ul li{
+    list-style: none;
+}
