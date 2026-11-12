@@ -1,0 +1,116 @@
+body header{
+    display: inline-flex;
+}
+.p0{
+    width: 150px;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: rgb(54, 53, 53);   
+    margin-top: 0.7cm;
+}
+header nav ul li :hover{
+    color: rgb(170, 89, 13);
+}
+header nav ul li{
+    list-style: none;
+    display: inline-flex;
+    margin-right: 1.6cm;
+    font-size: large;
+    
+}
+.part2{
+    display: inline-flex;
+    text-align: center;
+    margin-top: 1.5cm;
+    margin-bottom: 1.5cm;
+    gap: 2.5cm ;
+    
+}
+
+
+.a{
+    border: 0.01cm solid rgb(221, 193, 155);
+    padding-bottom: 1cm;
+    
+}
+.a p{margin-bottom: 0.5cm;color: rgb(231, 146, 49);}
+.part2 .a .aa{
+    background-color: black;
+    padding-bottom: 0.5cm;
+    padding-top: 0.5cm;
+}.aa a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+.b{
+    border: 0.01cm solid rgb(221, 193, 155);
+    padding-bottom: 1cm;
+    
+}
+.b p{margin-bottom: 1cm;color: rgb(231, 146, 49);}
+.part2 .b .bb{
+    background-color: black;
+    padding-bottom: 0.5cm;
+    padding-top: 0.5cm;
+}.bb a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+
+.c{
+    border: 0.01cm solid rgb(221, 193, 155);
+    padding-bottom: 1cm;
+    
+}
+.c p{margin-bottom: 1cm;color: rgb(231, 146, 49);}
+.part2 .c .cc{
+    background-color: black;
+    padding-bottom: 0.5cm;
+    padding-top: 0.5cm;
+}.cc a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.part3{
+    text-align: left;
+    margin-left: 10cm;
+    margin-bottom: 2cm;
+    font-size: large;
+    color: rgb(44, 41, 41);
+}
+
+
+
+.part4{
+    display: inline-flex;
+    background-color: rgb(67, 73, 179); width: 40cm;
+    color: white;
+}
+.part4 a{
+    text-decoration: none;
+    color: white;
+    list-style: none;
+}
+.d1{
+    margin-right: 4cm;
+    text-align: left;
+}
+.d2{
+    margin-right: 4cm;
+    text-align: left;
+}
+.d3{
+    text-align: left;
+    margin-right: 4cm;
+}
+footer{
+    background-color: rgb(67, 73, 179); width: 40cm ;
+    color: whitesmoke;
+    padding-left: 10cm;
+    
+}
